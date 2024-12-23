@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavesh's - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" class="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="responsive.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"> Bhavesh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <a href="#firstSection"><li>Home</li></a>
+                    <a href="#secondSection"><li>About</a></li>
+                    <a href="#thirdSection"><li>Experience</a></li>
+                    <a href="#fourthSection"><li>Projects</a></li>
+                    <a href="#fifthSection"><li>Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection" id="firstSection" data-aos="fade-right">
+            <div class="leftSection">
+                <div>Hi, My Name is <span class="purple">Bhavesh</span></div>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"onclick="window.open('./assets/Bhavesh Duse.pdf')">
+                        Download Resume
+                    </button>
+                    <button class="btn"><a href="#fifthSection"><li>Contact</a></li></button>
+                </div>
+                    <div id="socials-container">
+                        <img
+                            src="./assets/linkdin.jpg"
+                            alt="My LinkedIn profile"
+                            class="icon"
+                            onclick="location.href='https://linkedin.com/'"
+                        />
+                        <img
+                        src="./assets/facebook.png"
+                        alt="My Facebook profile"
+                        class="icon"
+                        onclick="location.href='https://Facebook.com/'"
+                        />
+                        <img src="./assets/git.png"
+                        class="icon"
+                         alt="My Git Profile"
+                         onclick="location.href='https://Github.com/'"/>
+                    </div>
+            </div>
+            <div class="rightSection">
+                <!-- https://source.unsplash.com/800x300/?webdev -->
+                <img src="bg.png" alt="" class=""/>
+            </div>
+        </section>
+        <hr>
+        <section class="thirdSection" id="secondSection" data-aos="fade-up">
+            <center>Get To Know More</center>
+            <h1>About Me</h1>
+            <div class="about">
+                <div class="rightside"> 
+                    <img src="./assets/myimg.png" alt=""/>
+                </div>
+                <div class="leftside" >
+                        <h1>Bhavesh Duse</h1>
+                        <p>Hello! I'm Bhavesh Duse, a passionate 20-year-old web developer driven by the art of transforming ideas into captivating online experiences. I've dedicated my academic journey to Computer Science, laying the groundwork for my venture into web development.</p>
+                        <br>
+                        <p> My hands-on internship experiences have been instrumental in honing skills such as frontend designing and development, providing me with a solid foundation in coding and problem-solving. These experiences have not only deepened my understanding but also ignited a continuous desire to learn and grow.</p>
+                        <br>
+                        <p> Looking forward, I'm excited about futuristic web development, eager to contribute innovative solutions to the dynamic landscape of web development. Dive into my portfolio to witness the seamless blend of creativity and technology that defines my work.</p>
+                        <br>
+                        <p>Let's connect and explore the possibilities! Feel free to reach out through my email id "dusebhavesh6@gmail.com", and let's embark on the next digital journey together.</p >
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection" id="thirdSection" >
+            <h1>Skills Experience</h1>
+            <div class="skill-bars">
+
+                <div class="bar">
+                  <div class="info" data-aos="fade-right">
+                    <span>HTML</span>
+                  </div>
+                  <div class="progress-line html">
+                    <span></span>
+                  </div>
+                </div>
+              
+                <div class="bar">
+                  <div class="info" data-aos="fade-right">
+                    <span>CSS</span>
+                  </div>
+                  <div class="progress-line css">
+                    <span></span>
+                  </div>
+                </div>
+              
+                <div class="bar">
+                  <div class="info"data-aos="fade-right">
+                    <span>JS</span>
+                  </div>
+                  <div class="progress-line js">
+                    <span></span>
+                  </div>
+                </div>
+
+                <div class="bar">
+                    <div class="info"data-aos="fade-right">
+                      <span>PHP</span>
+                    </div>
+                    <div class="progress-line php">
+                      <span></span>
+                    </div>
+                  </div>
+              
+                <div class="bar">
+                  <div class="info"data-aos="fade-right">
+                    <span>PYTHON</span>
+                  </div>
+                  <div class="progress-line python">
+                    <span></span>
+                  </div>
+                </div>
+
+                <div class="bar">
+                    <div class="info"data-aos="fade-right">
+                      <span>JAVA</span>
+                    </div>
+                    <div class="progress-line java">
+                      <span></span>
+                    </div>
+                  </div>
+              </div>
+ 
+        </section>
+        <hr>
+        <section class="fourthSection" id="fourthSection" data-aos="fade-right" >
+            <h1>My Projects</h1>
+            <div class="container">
+                    <div class="image1">
+                        <div class="grid-item">
+                            <img src="./assets/project-img-1.jpg" alt="" class="imgs">
+                        </div>
+                    </div>
+                    <div class="image2">
+                        <div class="grid-item">
+                            <img src="./assets/project-img-2.jpg" alt="" class="imgs">
+                        </div>
+                    </div>
+                    <div class="image3">
+                        <div class="grid-item">
+                            <img src="./assets/project-img-8.jpg" alt="" class="imgs">
+                        </div>
+    
+                    </div>
+                    <div class="image4">
+                        <div class="grid-item">
+                            <img src="./assets/project-img-4.jpg" alt="" class="imgs">
+                        </div>
+    
+                    </div>
+                    <div class="image5">
+                        <div class="grid-item">
+                            <img src="./assets/project-img-5.jpg" alt="" class="imgs">
+                        </div>
+    
+                    </div>
+                    <div class="image6">
+                        <div class="grid-item">
+                            <img src="./assets/project-img-6.jpg" alt="" class="imgs">
+                        </div>
+    
+                    </div>
+                    <div class="image5">
+                        <div class="grid-item">
+                            <img src="./assets/project-img-7.jpg" alt="" class="imgs">
+                        </div>
+    
+                    </div>
+                    <div class="image5">
+                        <div class="grid-item">
+                            <img src="./assets/project-img-8.jpg" alt="" class="imgs">
+                        </div>
+    
+                    </div> 
+            </div>
+        </section>
+        <hr>
+        <section class="fifthSection" id="fifthSection"data-aos="fade-right"> 
+            <h1>Contact Me</h1>
+            <div class="contact-form">
+                <form action="#" method="post">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+            
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+            
+                  <label for="phone">Phone:</label>
+                  <input type="number" id="phine" name="phone" required>
+            
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" rows="4" maxlength="2" required></textarea>
+            
+                  <button type="submit">Submit</button>
+                </form>
+              </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                    <h3>Bhavesh's Developer Portfolio</h3>
+                
+            </div>
+            <div class="footer-second">
+                <h3 class = "footer-title">Links</h3>
+                <ul>
+                    <a href="#firstSection"><li>Home</a></li>
+                    <a href="#secondSection"><li>About</a></li>
+                    <a href="#secondSection"><li>Experience</a></li>
+                    <a href="#fourthSection"><li>Projects</a></li>
+                    <a href="#fifthSection"><li>Contact</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-third">
+                <h3 class = "footer-title">More</h3>
+                <ul>
+                    <a href=""><li>Web Design</a></li>
+                    <a href=""><li> Web Development</a></li>
+                    <a href=""><li>Graphics Design</a></li>
+                    <a href=""><li>Java Development</a></li>
+                    <a href=""><li>Python Development</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <h3 class = "footer-title">have a question?</h3>
+                <ul>
+                    <li>Ask Me Here:</li>
+                    <li>dusebhavesh6@gmail.com</li>
+
+                </ul>
+            </div>
+        </div>
+    <div class="footer-rights">
+        Copyright &#169 Bhavesh's Portfolio.com | All Rights Reserved
+    </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Java Developer','Web Developer' ],
+          typeSpeed: 50,
+        });
+
+        
+</script>
+
+</body>
+</html>
